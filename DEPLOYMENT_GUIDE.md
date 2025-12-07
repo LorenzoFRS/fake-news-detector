@@ -110,13 +110,6 @@ Once it's live, make sure to test:
 - Can you upload a file?
 - Does download work?
 
-## What to submit
-
-For the assignment you'll probably need:
-- App URL
-- GitHub repo URL
-- Maybe a quick description of what you did
-
 ## If things break
 
 Check the logs in Streamlit Cloud first. Most issues are either:
@@ -124,17 +117,3 @@ Check the logs in Streamlit Cloud first. Most issues are either:
 - Wrong file paths
 - API problems
 
-If you're really stuck, try redeploying from scratch.
-
-## Privacy stuff
-
-Your app is public, so anyone with the link can use it. Don't put API keys in your code. Use the secrets thing in Streamlit if you need to.
-
-## Quick checklist
-
-Before you call it done:
-- App loads without errors
-- You can classify articles
-- Batch upload works
-- GitHub repo looks good
-- README makes sense
