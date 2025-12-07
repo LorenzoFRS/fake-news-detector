@@ -73,17 +73,6 @@ This uses the OpenAI API which costs money. Rough estimates:
 
 The app shows estimates before you run anything expensive.
 
-## Project structure
-
-```
-fake-news-detector/
-├── app.py                   # main app code
-├── requirements.txt         # packages needed
-├── create_sample_dataset.py # makes sample data
-└── data/
-    └── news_data.csv       # your dataset
-```
-
 ## Notes
 
 - Classification isn't perfect, especially for satire or complex cases
@@ -103,3 +92,4 @@ This was built for a text classification assignment where we had to adapt an exi
 ## License
 
 MIT - do whatever you want with it.
+
