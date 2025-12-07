@@ -6,6 +6,10 @@ This is a web app that uses GPT to classify news articles as real or fake. I bui
 
 The app takes news articles and predicts whether they're real news or fake news. It uses few-shot learning, which basically means showing GPT some examples first so it knows what to look for.
 
+## Streamlit Link
+
+https://fake-news-detector-j5vfb44anxpwh9pp54tfr9.streamlit.app/
+
 ## Setup
 
 You'll need Python 3.8+ and an OpenAI API key.
@@ -92,4 +96,5 @@ This was built for a text classification assignment where we had to adapt an exi
 ## License
 
 MIT - do whatever you want with it.
+
 
