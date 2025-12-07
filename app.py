@@ -312,7 +312,7 @@ def main():
     
     # Show LLM evaluation if available
     if 'few_shot_examples' in st.session_state:
-        st.header("📊 Model Performance Evaluation")
+        st.header("Model Performance Evaluation")
         
         with st.expander("Evaluate Model on Test Set", expanded=False):
             st.warning(f"This will make ~50 API calls. Estimated cost: ~$0.05-0.20 for {st.session_state.model_name}")
